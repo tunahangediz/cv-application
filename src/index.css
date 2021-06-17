@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-blue-900;
+}
+
+.profile-section {
+    background-color: #eff9fe;
+    @apply rounded-r-full p-8 mr-4 grid grid-cols-2 relative;
+}
+
+.titles {
+    color: #5567ad;
+    @apply flex flex-col  text-left;
+}
+.profile {
+    @apply bg-blue-800 w-28 h-28 rounded-full absolute right-4 top-3;
+}
+
+.background-div {
+    z-index: -20;
+    background-color: #5567ad;
+    @apply rounded-r-full h-full absolute w-full bg-blue-900 mt-3;
+}
+
+.primary-blue {
+    color: #5567ad;
+}
+.bg-primary {
+    background-color: #5567ad;
+}
+.night-blue {
+    color: #17225b;
+}
+
+.light-blue {
+    background-color: #eff9fd;
+}
+
+.personal-infos {
+    color: ;
+    @apply h-auto light-blue mt-8;
+}
+
+.h1 {
+    @apply text-2xl font-bold;
+}
+
+.p {
+    @apply text-lg my-2;
+}
+
+.input {
+    @apply rounded text-2xl px-2 outline-none;
+}
+
+.personal {
+    height: fit-content;
+}
